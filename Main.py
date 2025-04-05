@@ -42,10 +42,10 @@ def monitor_machines():
                         machine_statuses[machine_name] = "OFF"
                     else:
                         machine_statuses[machine_name] = "ON"
-                else:
-                    machine_statuses[machine_name] = "Collecting"
-            else:
-                machine_statuses[machine_name] = "Unavailable"
+            #     else:
+            #         machine_statuses[machine_name] = "Collecting"
+            # else:
+            #     machine_statuses[machine_name] = "Unavailable"
 
         time.sleep(1)
 
